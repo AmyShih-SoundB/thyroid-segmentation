@@ -1,0 +1,130 @@
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run009-mtnet-gland-fold0
+  model=mtnet  head=gland  size=224  threshold=0.5
+  checkpoint=run/mtnet/fold0/mtnet_best.pth
+  empty predictions: 38
+wrote /workspace/amy/preds/run009-mtnet-gland-fold0/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-gland-fold0
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7387  sd_across_cases=0.2584  median=0.8445  iqr=[0.680, 0.895]
+  iou   n=559   mean=0.6366  sd_across_cases=0.2530  median=0.7309  iqr=[0.515, 0.810]
+  hd95  n=521   mean=77.4562  sd_across_cases=55.0521  median=95.5332  iqr=[19.416, 129.155]   (38 undefined)
+  aggregate  dice=0.8327  iou=0.7133   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/16_score_run009_gland_fold0.csv
+wrote /workspace/amy/notes/16_score_run009_gland_fold0.csv.meta
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run009-mtnet-gland-fold1
+  model=mtnet  head=gland  size=224  threshold=0.5
+  checkpoint=run/mtnet/fold1/mtnet_best.pth
+  empty predictions: 29
+wrote /workspace/amy/preds/run009-mtnet-gland-fold1/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-gland-fold1
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7250  sd_across_cases=0.2639  median=0.8432  iqr=[0.673, 0.878]
+  iou   n=559   mean=0.6205  sd_across_cases=0.2542  median=0.7289  iqr=[0.507, 0.782]
+  hd95  n=530   mean=78.9043  sd_across_cases=55.6174  median=98.2632  iqr=[18.936, 130.287]   (29 undefined)
+  aggregate  dice=0.8215  iou=0.6971   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/16_score_run009_gland_fold1.csv
+wrote /workspace/amy/notes/16_score_run009_gland_fold1.csv.meta
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run009-mtnet-gland-fold2
+  model=mtnet  head=gland  size=224  threshold=0.5
+  checkpoint=run/mtnet/fold2/mtnet_best.pth
+  empty predictions: 14
+wrote /workspace/amy/preds/run009-mtnet-gland-fold2/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-gland-fold2
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7552  sd_across_cases=0.2378  median=0.8561  iqr=[0.707, 0.901]
+  iou   n=559   mean=0.6518  sd_across_cases=0.2401  median=0.7484  iqr=[0.547, 0.819]
+  hd95  n=545   mean=78.9244  sd_across_cases=58.2518  median=97.8399  iqr=[17.000, 129.727]   (14 undefined)
+  aggregate  dice=0.8425  iou=0.7278   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/16_score_run009_gland_fold2.csv
+wrote /workspace/amy/notes/16_score_run009_gland_fold2.csv.meta
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run009-mtnet-gland-fold3
+  model=mtnet  head=gland  size=224  threshold=0.5
+  checkpoint=run/mtnet/fold3/mtnet_best.pth
+  empty predictions: 34
+wrote /workspace/amy/preds/run009-mtnet-gland-fold3/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-gland-fold3
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7399  sd_across_cases=0.2492  median=0.8452  iqr=[0.702, 0.882]
+  iou   n=559   mean=0.6335  sd_across_cases=0.2385  median=0.7319  iqr=[0.541, 0.788]
+  hd95  n=525   mean=77.1738  sd_across_cases=56.2790  median=95.5494  iqr=[16.974, 126.496]   (34 undefined)
+  aggregate  dice=0.8311  iou=0.7110   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/16_score_run009_gland_fold3.csv
+wrote /workspace/amy/notes/16_score_run009_gland_fold3.csv.meta
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run009-mtnet-gland-fold4
+  model=mtnet  head=gland  size=224  threshold=0.5
+  checkpoint=run/mtnet/fold4/mtnet_best.pth
+  empty predictions: 44
+wrote /workspace/amy/preds/run009-mtnet-gland-fold4/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-gland-fold4
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7357  sd_across_cases=0.2633  median=0.8458  iqr=[0.684, 0.899]
+  iou   n=559   mean=0.6340  sd_across_cases=0.2547  median=0.7328  iqr=[0.520, 0.816]
+  hd95  n=515   mean=72.1295  sd_across_cases=52.2139  median=86.0767  iqr=[19.647, 119.687]   (44 undefined)
+  aggregate  dice=0.8288  iou=0.7076   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/16_score_run009_gland_fold4.csv
+wrote /workspace/amy/notes/16_score_run009_gland_fold4.csv.meta

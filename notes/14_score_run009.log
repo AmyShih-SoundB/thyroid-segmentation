@@ -1,0 +1,140 @@
+===== mtnet fold 0 =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run009-mtnet-fold0
+  model=mtnet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/mtnet/fold0/mtnet_best.pth
+  empty predictions: 11
+wrote /workspace/amy/preds/run009-mtnet-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.8041  sd_across_cases=0.2201  median=0.8855  iqr=[0.789, 0.932]
+  iou   n=614   mean=0.7143  sd_across_cases=0.2326  median=0.7946  iqr=[0.651, 0.872]
+  hd95  n=603   mean=20.8798  sd_across_cases=26.5897  median=9.4789  iqr=[5.000, 24.793]   (11 undefined)
+  aggregate  dice=0.8618  iou=0.7571   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/14_score_run009_fold0.csv
+wrote /workspace/amy/notes/14_score_run009_fold0.csv.meta
+===== mtnet fold 1 =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run009-mtnet-fold1
+  model=mtnet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/mtnet/fold1/mtnet_best.pth
+  empty predictions: 8
+wrote /workspace/amy/preds/run009-mtnet-fold1/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.8099  sd_across_cases=0.2097  median=0.8924  iqr=[0.794, 0.932]
+  iou   n=614   mean=0.7197  sd_across_cases=0.2268  median=0.8058  iqr=[0.659, 0.873]
+  hd95  n=604   mean=20.9850  sd_across_cases=25.6609  median=10.0990  iqr=[5.000, 24.807]   (10 undefined)
+  aggregate  dice=0.8631  iou=0.7592   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/14_score_run009_fold1.csv
+wrote /workspace/amy/notes/14_score_run009_fold1.csv.meta
+===== mtnet fold 2 =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run009-mtnet-fold2
+  model=mtnet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/mtnet/fold2/mtnet_best.pth
+  empty predictions: 14
+wrote /workspace/amy/preds/run009-mtnet-fold2/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7907  sd_across_cases=0.2322  median=0.8844  iqr=[0.760, 0.933]
+  iou   n=614   mean=0.7001  sd_across_cases=0.2459  median=0.7928  iqr=[0.613, 0.874]
+  hd95  n=599   mean=21.7572  sd_across_cases=27.0737  median=10.0125  iqr=[4.736, 27.526]   (15 undefined)
+  aggregate  dice=0.8501  iou=0.7394   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/14_score_run009_fold2.csv
+wrote /workspace/amy/notes/14_score_run009_fold2.csv.meta
+===== mtnet fold 3 =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run009-mtnet-fold3
+  model=mtnet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/mtnet/fold3/mtnet_best.pth
+  empty predictions: 7
+wrote /workspace/amy/preds/run009-mtnet-fold3/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7975  sd_across_cases=0.2168  median=0.8861  iqr=[0.767, 0.928]
+  iou   n=614   mean=0.7047  sd_across_cases=0.2342  median=0.7955  iqr=[0.622, 0.866]
+  hd95  n=607   mean=21.2982  sd_across_cases=25.5385  median=10.0000  iqr=[5.000, 26.429]   (7 undefined)
+  aggregate  dice=0.8555  iou=0.7475   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/14_score_run009_fold3.csv
+wrote /workspace/amy/notes/14_score_run009_fold3.csv.meta
+===== mtnet fold 4 =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run009-mtnet-fold4
+  model=mtnet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/mtnet/fold4/mtnet_best.pth
+  empty predictions: 12
+wrote /workspace/amy/preds/run009-mtnet-fold4/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run009-mtnet-fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7934  sd_across_cases=0.2231  median=0.8788  iqr=[0.765, 0.929]
+  iou   n=614   mean=0.7003  sd_across_cases=0.2357  median=0.7838  iqr=[0.619, 0.868]
+  hd95  n=602   mean=20.9758  sd_across_cases=26.0797  median=10.6301  iqr=[5.000, 25.013]   (12 undefined)
+  aggregate  dice=0.8566  iou=0.7491   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/14_score_run009_fold4.csv
+wrote /workspace/amy/notes/14_score_run009_fold4.csv.meta

@@ -1,0 +1,135 @@
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run008-unet-p-fold0
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=run/unet/fold0/unet_best.pth
+  empty predictions: 8
+wrote /workspace/amy/preds/run008-unet-p-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run008-unet-p-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7804  sd_across_cases=0.2253  median=0.8675  iqr=[0.730, 0.925]
+  iou   n=614   mean=0.6835  sd_across_cases=0.2405  median=0.7660  iqr=[0.575, 0.861]
+  hd95  n=605   mean=24.6271  sd_across_cases=26.6931  median=13.4164  iqr=[6.325, 33.208]   (9 undefined)
+  aggregate  dice=0.8501  iou=0.7393   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/15_score_run008_predict_fold0.csv
+wrote /workspace/amy/notes/15_score_run008_predict_fold0.csv.meta
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run008-unet-p-fold1
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=run/unet/fold1/unet_best.pth
+  empty predictions: 8
+wrote /workspace/amy/preds/run008-unet-p-fold1/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run008-unet-p-fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7919  sd_across_cases=0.2050  median=0.8650  iqr=[0.741, 0.921]
+  iou   n=614   mean=0.6927  sd_across_cases=0.2236  median=0.7621  iqr=[0.589, 0.854]
+  hd95  n=605   mean=24.0138  sd_across_cases=26.3804  median=12.9688  iqr=[5.930, 33.445]   (9 undefined)
+  aggregate  dice=0.8432  iou=0.7290   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/15_score_run008_predict_fold1.csv
+wrote /workspace/amy/notes/15_score_run008_predict_fold1.csv.meta
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run008-unet-p-fold2
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=run/unet/fold2/unet_best.pth
+  empty predictions: 11
+wrote /workspace/amy/preds/run008-unet-p-fold2/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run008-unet-p-fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7745  sd_across_cases=0.2253  median=0.8650  iqr=[0.725, 0.921]
+  iou   n=614   mean=0.6751  sd_across_cases=0.2397  median=0.7621  iqr=[0.568, 0.853]
+  hd95  n=603   mean=24.7132  sd_across_cases=28.1666  median=12.0685  iqr=[5.657, 34.670]   (11 undefined)
+  aggregate  dice=0.8401  iou=0.7243   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/15_score_run008_predict_fold2.csv
+wrote /workspace/amy/notes/15_score_run008_predict_fold2.csv.meta
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run008-unet-p-fold3
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=run/unet/fold3/unet_best.pth
+  empty predictions: 5
+wrote /workspace/amy/preds/run008-unet-p-fold3/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run008-unet-p-fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7777  sd_across_cases=0.2212  median=0.8659  iqr=[0.719, 0.923]
+  iou   n=614   mean=0.6787  sd_across_cases=0.2384  median=0.7635  iqr=[0.562, 0.857]
+  hd95  n=608   mean=28.0414  sd_across_cases=29.1303  median=15.3958  iqr=[6.403, 40.831]   (6 undefined)
+  aggregate  dice=0.8422  iou=0.7274   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/15_score_run008_predict_fold3.csv
+wrote /workspace/amy/notes/15_score_run008_predict_fold3.csv.meta
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run008-unet-p-fold4
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=run/unet/fold4/unet_best.pth
+  empty predictions: 12
+wrote /workspace/amy/preds/run008-unet-p-fold4/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run008-unet-p-fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7781  sd_across_cases=0.2306  median=0.8645  iqr=[0.728, 0.927]
+  iou   n=614   mean=0.6820  sd_across_cases=0.2442  median=0.7613  iqr=[0.572, 0.865]
+  hd95  n=601   mean=26.1499  sd_across_cases=29.4757  median=13.4332  iqr=[6.000, 35.961]   (13 undefined)
+  aggregate  dice=0.8436  iou=0.7296   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/15_score_run008_predict_fold4.csv
+wrote /workspace/amy/notes/15_score_run008_predict_fold4.csv.meta

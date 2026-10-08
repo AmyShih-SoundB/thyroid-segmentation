@@ -1,0 +1,15 @@
+date    : 2026-10-08T02:34:56.037469+00:00
+cwd     : /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation
+commit  : 1641dda
+command : python /workspace/amy/harness/score.py --pred /workspace/amy/preds/run009-mtnet-gland-fold1 --gt data/tg3k/thyroid-mask --split-key tg3k:val --at input --class-name gland --out /workspace/amy/notes/16_score_run009_gland_fold1.csv
+cases   : 559
+  at          = input
+  class_name  = gland
+  empty       = exclude
+  gt          = data/tg3k/thyroid-mask
+  input_size  = 224
+  out         = /workspace/amy/notes/16_score_run009_gland_fold1.csv
+  pred        = /workspace/amy/preds/run009-mtnet-gland-fold1
+  split       = /workspace/amy/splits/v1.json
+  split_key   = tg3k:val
+  threshold   = 127
