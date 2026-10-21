@@ -1,0 +1,27 @@
+
+=== dice ===
+model               f0        f1        f2        f3        f4      mean       SD
+U-Net           0.7804    0.7919    0.7745    0.7777    0.7781    0.7805   0.0067
+MTNet           0.8041    0.8099    0.7907    0.7975    0.7934    0.7991   0.0079
+TRFE+           0.8129    0.8165    0.7999    0.7961    0.7923    0.8035   0.0106
+  MTNet - U-Net: mean +0.0186  SD 0.0033  SE 0.0015  t +12.56 (4 df)  folds improved 5/5
+  TRFE+ - U-Net: mean +0.0230  SD 0.0070  SE 0.0031  t +7.31 (4 df)  folds improved 5/5
+
+=== iou ===
+model               f0        f1        f2        f3        f4      mean       SD
+U-Net           0.6835    0.6927    0.6751    0.6787    0.6820    0.6824   0.0066
+MTNet           0.7143    0.7197    0.7001    0.7047    0.7003    0.7078   0.0088
+TRFE+           0.7207    0.7241    0.7031    0.6984    0.6923    0.7077   0.0140
+  MTNet - U-Net: mean +0.0254  SD 0.0045  SE 0.0020  t +12.56 (4 df)  folds improved 5/5
+  TRFE+ - U-Net: mean +0.0253  SD 0.0105  SE 0.0047  t +5.41 (4 df)  folds improved 5/5
+
+=== hd95 ===
+model               f0        f1        f2        f3        f4      mean       SD
+U-Net          24.6271   24.0138   24.7132   28.0414   26.1499   25.5091   1.6179
+MTNet          20.8798   20.9850   21.7572   21.2982   20.9758   21.1792   0.3595
+TRFE+          20.0064   20.9390   22.2422   22.4926   22.2792   21.5919   1.0778
+  MTNet - U-Net: mean -4.3299  SD 1.6168  SE 0.7231  t -5.99 (4 df)  folds improved 5/5
+  TRFE+ - U-Net: mean -3.9172  SD 1.2207  SE 0.5459  t -7.18 (4 df)  folds improved 5/5
+
+cases per fold: U-Net 614, MTNet 614, TRFE+ 614
+SD is across folds, not across cases. Paired test is fold-wise.

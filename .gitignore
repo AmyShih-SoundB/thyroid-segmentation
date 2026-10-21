@@ -8,3 +8,7 @@ results/
 __pycache__/
 .ipynb_checkpoints/
 venv/
+runs/
+checkpoints/
+preds/
+pseudo/

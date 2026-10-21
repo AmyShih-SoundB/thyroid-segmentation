@@ -1,0 +1,21 @@
+
+=== dice ===
+model               f0        f1        f2        f3        f4      mean       SD
+MTNet           0.8041    0.8099    0.7907    0.7975    0.7934    0.7991   0.0079
+TRFE+           0.8129    0.8165    0.7999    0.7961    0.7923    0.8035   0.0106
+  TRFE+ - MTNet: mean +0.0044  SD 0.0053  SE 0.0024  t +1.86 (4 df)  folds improved 3/5
+
+=== iou ===
+model               f0        f1        f2        f3        f4      mean       SD
+MTNet           0.7143    0.7197    0.7001    0.7047    0.7003    0.7078   0.0088
+TRFE+           0.7207    0.7241    0.7031    0.6984    0.6923    0.7077   0.0140
+  TRFE+ - MTNet: mean -0.0001  SD 0.0065  SE 0.0029  t -0.04 (4 df)  folds improved 3/5
+
+=== hd95 ===
+model               f0        f1        f2        f3        f4      mean       SD
+MTNet          20.8798   20.9850   21.7572   21.2982   20.9758   21.1792   0.3595
+TRFE+          20.0064   20.9390   22.2422   22.4926   22.2792   21.5919   1.0778
+  TRFE+ - MTNet: mean +0.4127  SD 0.9048  SE 0.4046  t +1.02 (4 df)  folds improved 2/5
+
+cases per fold: MTNet 614, TRFE+ 614
+SD is across folds, not across cases. Paired test is fold-wise.

@@ -1,0 +1,40 @@
+nohup: ignoring input
+===== scoring fold 0  Mon Oct 19 00:45:56 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold0
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold0.pth
+  empty predictions: 9
+wrote /workspace/amy/preds/run014-w76-fold0/_predict.meta
+Traceback (most recent call last):
+  File "/workspace/amy/harness/score.py", line 16, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+===== scoring random  Mon Oct 19 00:46:13 UTC 2026 =====
+  resnet18-unet (encoder weights come from the checkpoint)
+resnet18-unet init=random
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run015-random-fold0
+  model=resnet18unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-015-r18unet-random-fold0.pth
+  empty predictions: 13
+wrote /workspace/amy/preds/run015-random-fold0/_predict.meta
+Traceback (most recent call last):
+  File "/workspace/amy/harness/score.py", line 16, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'

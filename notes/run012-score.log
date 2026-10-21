@@ -1,0 +1,84 @@
+nohup: ignoring input
+===== B =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run012-B
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/student-B-nodule-from-tn3k.pth
+  empty predictions: 14
+wrote /workspace/amy/preds/run012-B/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run012-B
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7918  sd_across_cases=0.2267  median=0.8831  iqr=[0.750, 0.931]
+  iou   n=614   mean=0.6995  sd_across_cases=0.2401  median=0.7906  iqr=[0.600, 0.871]
+  hd95  n=600   mean=22.2679  sd_across_cases=25.5450  median=10.9083  iqr=[5.000, 30.235]   (14 undefined)
+  aggregate  dice=0.8551  iou=0.7468   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/33_score_student_B.csv
+wrote /workspace/amy/notes/33_score_student_B.csv.meta
+===== C =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run012-C
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/student-C-nodule-from-tg3k.pth
+  empty predictions: 614
+wrote /workspace/amy/preds/run012-C/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run012-C
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.0000  sd_across_cases=0.0000  median=0.0000  iqr=[0.000, 0.000]
+  iou   n=614   mean=0.0000  sd_across_cases=0.0000  median=0.0000  iqr=[0.000, 0.000]
+  hd95  n=0      all undefined
+  aggregate  dice=0.0000  iou=0.0000   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/34_score_student_C.csv
+wrote /workspace/amy/notes/34_score_student_C.csv.meta
+===== G =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run012-G
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/student-G-gland-from-tn3k.pth
+  empty predictions: 17
+wrote /workspace/amy/preds/run012-G/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run012-G
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7318  sd_across_cases=0.2494  median=0.8344  iqr=[0.739, 0.866]
+  iou   n=559   mean=0.6222  sd_across_cases=0.2331  median=0.7159  iqr=[0.586, 0.764]
+  hd95  n=542   mean=78.6532  sd_across_cases=53.8227  median=100.0533  iqr=[19.454, 119.073]   (17 undefined)
+  aggregate  dice=0.8158  iou=0.6889   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/35_score_student_G.csv
+wrote /workspace/amy/notes/35_score_student_G.csv.meta

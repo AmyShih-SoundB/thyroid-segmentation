@@ -1,0 +1,57 @@
+nohup: ignoring input
+dropped: 791 blank-mask pairs
+split tg3k:train: 3026 names -> 2235 pairs
+blank targets: 0/2235 (0.0%)
+device=cuda  iters/epoch=139  params=31.04 M
+epoch: 0 lr: 0.01000 trainloss: 0.9330 timecost:28.5 secs
+epoch: 1 lr: 0.00982 trainloss: 0.9138 timecost:53.4 secs
+epoch: 2 lr: 0.00964 trainloss: 0.8436 timecost:78.6 secs
+epoch: 3 lr: 0.00946 trainloss: 0.7304 timecost:103.0 secs
+epoch: 4 lr: 0.00928 trainloss: 0.6729 timecost:127.6 secs
+epoch: 5 lr: 0.00910 trainloss: 0.6226 timecost:153.6 secs
+epoch: 6 lr: 0.00891 trainloss: 0.5991 timecost:180.5 secs
+epoch: 7 lr: 0.00873 trainloss: 0.5649 timecost:207.7 secs
+epoch: 8 lr: 0.00855 trainloss: 0.5664 timecost:235.5 secs
+epoch: 9 lr: 0.00836 trainloss: 0.5226 timecost:263.1 secs
+epoch: 10 lr: 0.00818 trainloss: 0.5381 timecost:289.3 secs
+epoch: 11 lr: 0.00800 trainloss: 0.5250 timecost:313.8 secs
+epoch: 12 lr: 0.00781 trainloss: 0.4938 timecost:339.0 secs
+epoch: 13 lr: 0.00763 trainloss: 0.5192 timecost:364.3 secs
+epoch: 14 lr: 0.00744 trainloss: 0.4805 timecost:389.7 secs
+epoch: 15 lr: 0.00725 trainloss: 0.4880 timecost:414.5 secs
+epoch: 16 lr: 0.00707 trainloss: 0.5083 timecost:440.0 secs
+epoch: 17 lr: 0.00688 trainloss: 0.4623 timecost:466.9 secs
+epoch: 18 lr: 0.00669 trainloss: 0.4372 timecost:493.6 secs
+epoch: 19 lr: 0.00650 trainloss: 0.4353 timecost:518.2 secs
+epoch: 20 lr: 0.00631 trainloss: 0.4365 timecost:542.5 secs
+epoch: 21 lr: 0.00612 trainloss: 0.4048 timecost:569.0 secs
+epoch: 22 lr: 0.00593 trainloss: 0.3948 timecost:596.5 secs
+epoch: 23 lr: 0.00574 trainloss: 0.4022 timecost:624.0 secs
+epoch: 24 lr: 0.00555 trainloss: 0.3878 timecost:650.8 secs
+epoch: 25 lr: 0.00536 trainloss: 0.3851 timecost:677.0 secs
+epoch: 26 lr: 0.00517 trainloss: 0.3911 timecost:702.4 secs
+epoch: 27 lr: 0.00497 trainloss: 0.3947 timecost:727.3 secs
+epoch: 28 lr: 0.00478 trainloss: 0.3706 timecost:752.3 secs
+epoch: 29 lr: 0.00458 trainloss: 0.3609 timecost:778.0 secs
+epoch: 30 lr: 0.00438 trainloss: 0.3541 timecost:803.4 secs
+epoch: 31 lr: 0.00419 trainloss: 0.3490 timecost:828.8 secs
+epoch: 32 lr: 0.00399 trainloss: 0.3413 timecost:854.1 secs
+epoch: 33 lr: 0.00379 trainloss: 0.3376 timecost:880.3 secs
+epoch: 34 lr: 0.00359 trainloss: 0.3393 timecost:906.0 secs
+epoch: 35 lr: 0.00338 trainloss: 0.3265 timecost:932.0 secs
+epoch: 36 lr: 0.00318 trainloss: 0.3187 timecost:957.5 secs
+epoch: 37 lr: 0.00297 trainloss: 0.3187 timecost:983.1 secs
+epoch: 38 lr: 0.00277 trainloss: 0.3110 timecost:1013.2 secs
+epoch: 39 lr: 0.00256 trainloss: 0.3053 timecost:1040.3 secs
+epoch: 40 lr: 0.00235 trainloss: 0.3057 timecost:1066.3 secs
+epoch: 41 lr: 0.00214 trainloss: 0.3000 timecost:1093.4 secs
+epoch: 42 lr: 0.00192 trainloss: 0.2967 timecost:1120.2 secs
+epoch: 43 lr: 0.00170 trainloss: 0.2884 timecost:1146.9 secs
+epoch: 44 lr: 0.00148 trainloss: 0.2845 timecost:1174.1 secs
+epoch: 45 lr: 0.00126 trainloss: 0.2805 timecost:1201.1 secs
+epoch: 46 lr: 0.00103 trainloss: 0.2777 timecost:1228.1 secs
+epoch: 47 lr: 0.00079 trainloss: 0.2779 timecost:1255.4 secs
+epoch: 48 lr: 0.00055 trainloss: 0.2704 timecost:1282.1 secs
+epoch: 49 lr: 0.00030 trainloss: 0.2669 timecost:1308.3 secs
+wrote /workspace/amy/runs/student-C2-nonblank.pth
+wrote /workspace/amy/runs/student-C2-nonblank.pth.meta

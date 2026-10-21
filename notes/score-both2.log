@@ -1,0 +1,238 @@
+nohup: ignoring input
+===== scoring fold 0  Mon Oct 19 01:10:30 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold0
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold0.pth
+  empty predictions: 9
+wrote /workspace/amy/preds/run014-w76-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run014-w76-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7831  sd_across_cases=0.2255  median=0.8771  iqr=[0.724, 0.927]
+  iou   n=614   mean=0.6874  sd_across_cases=0.2413  median=0.7811  iqr=[0.568, 0.863]
+  hd95  n=604   mean=23.7534  sd_across_cases=26.9546  median=13.0622  iqr=[5.831, 31.677]   (10 undefined)
+  aggregate  dice=0.8498  iou=0.7389   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/46_score_run014_fold0.csv
+wrote /workspace/amy/notes/46_score_run014_fold0.csv.meta
+===== scoring fold 1  Mon Oct 19 01:10:53 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold1
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold1.pth
+  empty predictions: 5
+wrote /workspace/amy/preds/run014-w76-fold1/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run014-w76-fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7860  sd_across_cases=0.2124  median=0.8661  iqr=[0.742, 0.923]
+  iou   n=614   mean=0.6868  sd_across_cases=0.2291  median=0.7638  iqr=[0.590, 0.857]
+  hd95  n=606   mean=25.6940  sd_across_cases=28.3183  median=14.8996  iqr=[6.239, 33.200]   (8 undefined)
+  aggregate  dice=0.8479  iou=0.7360   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/46_score_run014_fold1.csv
+wrote /workspace/amy/notes/46_score_run014_fold1.csv.meta
+===== scoring fold 2  Mon Oct 19 01:11:16 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold2
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold2.pth
+  empty predictions: 14
+wrote /workspace/amy/preds/run014-w76-fold2/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run014-w76-fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7762  sd_across_cases=0.2272  median=0.8622  iqr=[0.724, 0.923]
+  iou   n=614   mean=0.6779  sd_across_cases=0.2404  median=0.7578  iqr=[0.568, 0.857]
+  hd95  n=600   mean=21.7603  sd_across_cases=24.4950  median=11.6833  iqr=[5.657, 28.218]   (14 undefined)
+  aggregate  dice=0.8389  iou=0.7225   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/46_score_run014_fold2.csv
+wrote /workspace/amy/notes/46_score_run014_fold2.csv.meta
+===== scoring fold 3  Mon Oct 19 01:11:39 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold3
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold3.pth
+  empty predictions: 6
+wrote /workspace/amy/preds/run014-w76-fold3/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run014-w76-fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7842  sd_across_cases=0.2173  median=0.8720  iqr=[0.727, 0.921]
+  iou   n=614   mean=0.6858  sd_across_cases=0.2333  median=0.7731  iqr=[0.571, 0.854]
+  hd95  n=606   mean=23.1509  sd_across_cases=26.7161  median=12.0000  iqr=[5.661, 30.490]   (8 undefined)
+  aggregate  dice=0.8415  iou=0.7264   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/46_score_run014_fold3.csv
+wrote /workspace/amy/notes/46_score_run014_fold3.csv.meta
+===== scoring fold 4  Mon Oct 19 01:12:01 UTC 2026 =====
+  unet width=76
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run014-w76-fold4
+  model=unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-014-unet-w76-fold4.pth
+  empty predictions: 7
+wrote /workspace/amy/preds/run014-w76-fold4/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run014-w76-fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7853  sd_across_cases=0.2205  median=0.8670  iqr=[0.735, 0.927]
+  iou   n=614   mean=0.6886  sd_across_cases=0.2365  median=0.7653  iqr=[0.581, 0.863]
+  hd95  n=606   mean=24.4880  sd_across_cases=27.4428  median=13.9781  iqr=[5.668, 34.447]   (8 undefined)
+  aggregate  dice=0.8460  iou=0.7330   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/46_score_run014_fold4.csv
+wrote /workspace/amy/notes/46_score_run014_fold4.csv.meta
+===== done Mon Oct 19 01:12:23 UTC 2026 =====
+===== scoring random  Mon Oct 19 01:12:23 UTC 2026 =====
+  resnet18-unet (encoder weights come from the checkpoint)
+resnet18-unet init=random
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run015-random-fold0
+  model=resnet18unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-015-r18unet-random-fold0.pth
+  empty predictions: 13
+wrote /workspace/amy/preds/run015-random-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run015-random-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7550  sd_across_cases=0.2454  median=0.8605  iqr=[0.670, 0.926]
+  iou   n=614   mean=0.6569  sd_across_cases=0.2611  median=0.7552  iqr=[0.503, 0.862]
+  hd95  n=601   mean=22.8847  sd_across_cases=26.9032  median=11.7047  iqr=[5.831, 31.015]   (13 undefined)
+  aggregate  dice=0.8324  iou=0.7128   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/47_score_run015_random.csv
+wrote /workspace/amy/notes/47_score_run015_random.csv.meta
+===== scoring imagenet  Mon Oct 19 01:12:45 UTC 2026 =====
+  resnet18-unet (encoder weights come from the checkpoint)
+resnet18-unet init=random
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run015-imagenet-fold0
+  model=resnet18unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-015-r18unet-imagenet-fold0.pth
+  empty predictions: 2
+wrote /workspace/amy/preds/run015-imagenet-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run015-imagenet-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.8134  sd_across_cases=0.1919  median=0.8896  iqr=[0.779, 0.932]
+  iou   n=614   mean=0.7196  sd_across_cases=0.2156  median=0.8011  iqr=[0.638, 0.872]
+  hd95  n=612   mean=19.2290  sd_across_cases=25.1113  median=9.2195  iqr=[4.670, 22.171]   (2 undefined)
+  aggregate  dice=0.8664  iou=0.7642   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/47_score_run015_imagenet.csv
+wrote /workspace/amy/notes/47_score_run015_imagenet.csv.meta
+===== scoring uscl  Mon Oct 19 01:13:05 UTC 2026 =====
+  resnet18-unet (encoder weights come from the checkpoint)
+resnet18-unet init=random
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run015-uscl-fold0
+  model=resnet18unet  head=nodule  size=224  threshold=0.5
+  checkpoint=/workspace/amy/runs/run-015-r18unet-uscl-fold0.pth
+  empty predictions: 20
+wrote /workspace/amy/preds/run015-uscl-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run015-uscl-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7372  sd_across_cases=0.2610  median=0.8443  iqr=[0.650, 0.915]
+  iou   n=614   mean=0.6384  sd_across_cases=0.2693  median=0.7306  iqr=[0.481, 0.843]
+  hd95  n=594   mean=25.1579  sd_across_cases=26.7903  median=14.5168  iqr=[6.000, 36.006]   (20 undefined)
+  aggregate  dice=0.8166  iou=0.6901   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/47_score_run015_uscl.csv
+wrote /workspace/amy/notes/47_score_run015_uscl.csv.meta
+===== done Mon Oct 19 01:13:27 UTC 2026 =====

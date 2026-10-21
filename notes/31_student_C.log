@@ -1,0 +1,56 @@
+split tg3k:train: 3026 names -> 3026 pairs
+blank targets: 791/3026 (26.1%)
+  NOTE: SoftDiceLoss rewards an empty prediction on a blank target (-1) more than a perfect prediction on a real one (~0). Expect the student to be pulled toward predicting nothing.
+device=cuda  iters/epoch=189  params=31.04 M
+epoch: 0 lr: 0.01000 trainloss: 0.9489 timecost:39.3 secs
+epoch: 1 lr: 0.00982 trainloss: 0.9343 timecost:74.5 secs
+epoch: 2 lr: 0.00964 trainloss: 0.8690 timecost:109.2 secs
+epoch: 3 lr: 0.00946 trainloss: 0.8042 timecost:143.6 secs
+epoch: 4 lr: 0.00928 trainloss: 0.5120 timecost:178.0 secs
+epoch: 5 lr: 0.00910 trainloss: 0.4572 timecost:211.7 secs
+epoch: 6 lr: 0.00891 trainloss: 0.4578 timecost:245.3 secs
+epoch: 7 lr: 0.00873 trainloss: 0.4571 timecost:278.0 secs
+epoch: 8 lr: 0.00855 trainloss: 0.4572 timecost:311.1 secs
+epoch: 9 lr: 0.00836 trainloss: 0.4571 timecost:344.1 secs
+epoch: 10 lr: 0.00818 trainloss: 0.4585 timecost:377.3 secs
+epoch: 11 lr: 0.00800 trainloss: 0.4571 timecost:410.8 secs
+epoch: 12 lr: 0.00781 trainloss: 0.4578 timecost:443.7 secs
+epoch: 13 lr: 0.00763 trainloss: 0.4571 timecost:477.0 secs
+epoch: 14 lr: 0.00744 trainloss: 0.4572 timecost:510.4 secs
+epoch: 15 lr: 0.00725 trainloss: 0.4578 timecost:543.6 secs
+epoch: 16 lr: 0.00707 trainloss: 0.4572 timecost:576.5 secs
+epoch: 17 lr: 0.00688 trainloss: 0.4572 timecost:608.9 secs
+epoch: 18 lr: 0.00669 trainloss: 0.4585 timecost:641.3 secs
+epoch: 19 lr: 0.00650 trainloss: 0.4572 timecost:674.1 secs
+epoch: 20 lr: 0.00631 trainloss: 0.4579 timecost:707.2 secs
+epoch: 21 lr: 0.00612 trainloss: 0.4579 timecost:740.0 secs
+epoch: 22 lr: 0.00593 trainloss: 0.4579 timecost:771.8 secs
+epoch: 23 lr: 0.00574 trainloss: 0.4579 timecost:803.7 secs
+epoch: 24 lr: 0.00555 trainloss: 0.4572 timecost:835.8 secs
+epoch: 25 lr: 0.00536 trainloss: 0.4572 timecost:868.2 secs
+epoch: 26 lr: 0.00517 trainloss: 0.4573 timecost:900.9 secs
+epoch: 27 lr: 0.00497 trainloss: 0.4572 timecost:934.5 secs
+epoch: 28 lr: 0.00478 trainloss: 0.4573 timecost:968.1 secs
+epoch: 29 lr: 0.00458 trainloss: 0.4579 timecost:1001.7 secs
+epoch: 30 lr: 0.00438 trainloss: 0.4586 timecost:1034.0 secs
+epoch: 31 lr: 0.00419 trainloss: 0.4579 timecost:1066.8 secs
+epoch: 32 lr: 0.00399 trainloss: 0.4573 timecost:1100.0 secs
+epoch: 33 lr: 0.00379 trainloss: 0.4586 timecost:1132.6 secs
+epoch: 34 lr: 0.00359 trainloss: 0.4573 timecost:1165.6 secs
+epoch: 35 lr: 0.00338 trainloss: 0.4579 timecost:1198.1 secs
+epoch: 36 lr: 0.00318 trainloss: 0.4579 timecost:1230.5 secs
+epoch: 37 lr: 0.00297 trainloss: 0.4574 timecost:1263.0 secs
+epoch: 38 lr: 0.00277 trainloss: 0.4573 timecost:1296.7 secs
+epoch: 39 lr: 0.00256 trainloss: 0.4580 timecost:1329.6 secs
+epoch: 40 lr: 0.00235 trainloss: 0.4573 timecost:1362.8 secs
+epoch: 41 lr: 0.00214 trainloss: 0.4573 timecost:1395.9 secs
+epoch: 42 lr: 0.00192 trainloss: 0.4580 timecost:1428.6 secs
+epoch: 43 lr: 0.00170 trainloss: 0.4580 timecost:1461.6 secs
+epoch: 44 lr: 0.00148 trainloss: 0.4573 timecost:1498.0 secs
+epoch: 45 lr: 0.00126 trainloss: 0.4573 timecost:1532.0 secs
+epoch: 46 lr: 0.00103 trainloss: 0.4580 timecost:1564.9 secs
+epoch: 47 lr: 0.00079 trainloss: 0.4573 timecost:1597.6 secs
+epoch: 48 lr: 0.00055 trainloss: 0.4580 timecost:1630.3 secs
+epoch: 49 lr: 0.00030 trainloss: 0.4573 timecost:1663.6 secs
+wrote /workspace/amy/runs/student-C-nodule-from-tg3k.pth
+wrote /workspace/amy/runs/student-C-nodule-from-tg3k.pth.meta

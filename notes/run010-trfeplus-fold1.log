@@ -1,0 +1,485 @@
+Training trfeplus from scratch...
+2303
+3026
+nitrs: 0 num_iter_tr: 287
+nsamples: 0 tot_num_samples: 2303
+epoch: 0 ii: 49 trainloss: 11.66 timecost:12.63 secs
+epoch: 0 ii: 99 trainloss: 9.51 timecost:23.56 secs
+epoch: 0 ii: 149 trainloss: 7.66 timecost:36.01 secs
+epoch: 0 ii: 199 trainloss: 7.19 timecost:48.56 secs
+epoch: 0 ii: 249 trainloss: 6.96 timecost:61.08 secs
+epoch: 0 meanloss: 8.36
+Validation:
+epoch: 0, numImages: 576 testloss: 0.54 mmae: 0.1355 fbeta: 0.5085 iou: 0.3346
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 1 ii: 12 trainloss: 6.65 timecost:103.38 secs
+epoch: 1 ii: 62 trainloss: 6.71 timecost:114.66 secs
+epoch: 1 ii: 112 trainloss: 6.25 timecost:126.33 secs
+epoch: 1 ii: 162 trainloss: 6.26 timecost:137.40 secs
+epoch: 1 ii: 212 trainloss: 6.25 timecost:149.15 secs
+epoch: 1 ii: 262 trainloss: 6.03 timecost:160.64 secs
+epoch: 1 meanloss: 6.27
+Validation:
+epoch: 1, numImages: 576 testloss: 0.49 mmae: 0.1057 fbeta: 0.5761 iou: 0.3851
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 2 ii: 25 trainloss: 5.96 timecost:201.06 secs
+epoch: 2 ii: 75 trainloss: 6.22 timecost:211.55 secs
+epoch: 2 ii: 125 trainloss: 5.95 timecost:222.21 secs
+epoch: 2 ii: 175 trainloss: 5.91 timecost:234.36 secs
+epoch: 2 ii: 225 trainloss: 5.80 timecost:246.13 secs
+epoch: 2 ii: 275 trainloss: 5.70 timecost:259.11 secs
+epoch: 2 meanloss: 5.91
+Validation:
+epoch: 2, numImages: 576 testloss: 0.45 mmae: 0.1008 fbeta: 0.5865 iou: 0.4145
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 3 ii: 38 trainloss: 5.69 timecost:300.41 secs
+epoch: 3 ii: 88 trainloss: 5.59 timecost:311.23 secs
+epoch: 3 ii: 138 trainloss: 5.74 timecost:322.13 secs
+epoch: 3 ii: 188 trainloss: 5.41 timecost:333.58 secs
+epoch: 3 ii: 238 trainloss: 5.24 timecost:344.72 secs
+epoch: 3 meanloss: 5.49
+Validation:
+epoch: 3, numImages: 576 testloss: 0.46 mmae: 0.1090 fbeta: 0.5654 iou: 0.4132
+epoch: 4 ii: 1 trainloss: 5.26 timecost:383.38 secs
+epoch: 4 ii: 51 trainloss: 5.40 timecost:393.49 secs
+epoch: 4 ii: 101 trainloss: 5.35 timecost:403.64 secs
+epoch: 4 ii: 151 trainloss: 5.10 timecost:414.18 secs
+epoch: 4 ii: 201 trainloss: 5.20 timecost:424.76 secs
+epoch: 4 ii: 251 trainloss: 5.21 timecost:435.55 secs
+epoch: 4 meanloss: 5.26
+Validation:
+epoch: 4, numImages: 576 testloss: 0.42 mmae: 0.0902 fbeta: 0.6172 iou: 0.4477
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 5 ii: 14 trainloss: 5.34 timecost:473.12 secs
+epoch: 5 ii: 64 trainloss: 5.10 timecost:483.50 secs
+epoch: 5 ii: 114 trainloss: 4.97 timecost:494.33 secs
+epoch: 5 ii: 164 trainloss: 5.01 timecost:505.14 secs
+epoch: 5 ii: 214 trainloss: 5.15 timecost:516.43 secs
+epoch: 5 ii: 264 trainloss: 4.87 timecost:527.75 secs
+epoch: 5 meanloss: 5.01
+Validation:
+epoch: 5, numImages: 576 testloss: 0.40 mmae: 0.0809 fbeta: 0.6505 iou: 0.4669
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 6 ii: 27 trainloss: 4.74 timecost:565.95 secs
+epoch: 6 ii: 77 trainloss: 4.69 timecost:576.53 secs
+epoch: 6 ii: 127 trainloss: 4.88 timecost:587.15 secs
+epoch: 6 ii: 177 trainloss: 5.10 timecost:598.31 secs
+epoch: 6 ii: 227 trainloss: 4.88 timecost:610.96 secs
+epoch: 6 ii: 277 trainloss: 4.83 timecost:625.08 secs
+epoch: 6 meanloss: 4.87
+Validation:
+epoch: 6, numImages: 576 testloss: 0.41 mmae: 0.0955 fbeta: 0.5954 iou: 0.4642
+epoch: 7 ii: 40 trainloss: 4.78 timecost:671.92 secs
+epoch: 7 ii: 90 trainloss: 4.74 timecost:682.69 secs
+epoch: 7 ii: 140 trainloss: 4.60 timecost:694.47 secs
+epoch: 7 ii: 190 trainloss: 4.67 timecost:705.46 secs
+epoch: 7 ii: 240 trainloss: 4.42 timecost:716.55 secs
+epoch: 7 meanloss: 4.60
+Validation:
+epoch: 7, numImages: 576 testloss: 0.36 mmae: 0.0745 fbeta: 0.6918 iou: 0.5089
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 8 ii: 3 trainloss: 4.48 timecost:756.66 secs
+epoch: 8 ii: 53 trainloss: 4.53 timecost:767.80 secs
+epoch: 8 ii: 103 trainloss: 4.42 timecost:778.72 secs
+epoch: 8 ii: 153 trainloss: 4.27 timecost:790.19 secs
+epoch: 8 ii: 203 trainloss: 4.57 timecost:802.08 secs
+epoch: 8 ii: 253 trainloss: 4.40 timecost:813.88 secs
+epoch: 8 meanloss: 4.46
+Validation:
+epoch: 8, numImages: 576 testloss: 0.34 mmae: 0.0732 fbeta: 0.6879 iou: 0.5250
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 9 ii: 16 trainloss: 4.41 timecost:858.28 secs
+epoch: 9 ii: 66 trainloss: 4.29 timecost:868.57 secs
+epoch: 9 ii: 116 trainloss: 4.33 timecost:879.05 secs
+epoch: 9 ii: 166 trainloss: 4.32 timecost:889.57 secs
+epoch: 9 ii: 216 trainloss: 4.34 timecost:900.08 secs
+epoch: 9 ii: 266 trainloss: 4.34 timecost:910.55 secs
+epoch: 9 meanloss: 4.28
+Validation:
+epoch: 9, numImages: 576 testloss: 0.33 mmae: 0.0714 fbeta: 0.7076 iou: 0.5453
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+(poly lr policy) learning rate:  0.008364355197985339
+epoch: 10 ii: 29 trainloss: 3.94 timecost:952.22 secs
+epoch: 10 ii: 79 trainloss: 4.14 timecost:962.25 secs
+epoch: 10 ii: 129 trainloss: 3.96 timecost:972.63 secs
+epoch: 10 ii: 179 trainloss: 3.98 timecost:982.71 secs
+epoch: 10 ii: 229 trainloss: 3.88 timecost:992.64 secs
+epoch: 10 ii: 279 trainloss: 4.23 timecost:1002.37 secs
+epoch: 10 meanloss: 4.04
+Validation:
+epoch: 10, numImages: 576 testloss: 0.35 mmae: 0.0810 fbeta: 0.6693 iou: 0.5230
+epoch: 11 ii: 42 trainloss: 4.31 timecost:1043.41 secs
+epoch: 11 ii: 92 trainloss: 3.93 timecost:1053.74 secs
+epoch: 11 ii: 142 trainloss: 3.89 timecost:1064.42 secs
+epoch: 11 ii: 192 trainloss: 3.69 timecost:1075.11 secs
+epoch: 11 ii: 242 trainloss: 4.08 timecost:1085.91 secs
+epoch: 11 meanloss: 3.94
+Validation:
+epoch: 11, numImages: 576 testloss: 0.30 mmae: 0.0624 fbeta: 0.7504 iou: 0.5776
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 12 ii: 5 trainloss: 3.74 timecost:1127.56 secs
+epoch: 12 ii: 55 trainloss: 3.77 timecost:1138.20 secs
+epoch: 12 ii: 105 trainloss: 3.92 timecost:1150.82 secs
+epoch: 12 ii: 155 trainloss: 3.60 timecost:1163.93 secs
+epoch: 12 ii: 205 trainloss: 3.91 timecost:1176.79 secs
+epoch: 12 ii: 255 trainloss: 3.77 timecost:1188.08 secs
+epoch: 12 meanloss: 3.78
+Validation:
+epoch: 12, numImages: 576 testloss: 0.37 mmae: 0.0864 fbeta: 0.6269 iou: 0.5049
+epoch: 13 ii: 18 trainloss: 3.78 timecost:1237.21 secs
+epoch: 13 ii: 68 trainloss: 3.67 timecost:1247.69 secs
+epoch: 13 ii: 118 trainloss: 3.54 timecost:1257.96 secs
+epoch: 13 ii: 168 trainloss: 3.66 timecost:1267.84 secs
+epoch: 13 ii: 218 trainloss: 3.68 timecost:1278.42 secs
+epoch: 13 ii: 268 trainloss: 3.75 timecost:1290.17 secs
+epoch: 13 meanloss: 3.66
+Validation:
+epoch: 13, numImages: 576 testloss: 0.28 mmae: 0.0589 fbeta: 0.7541 iou: 0.5956
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 14 ii: 31 trainloss: 3.55 timecost:1336.12 secs
+epoch: 14 ii: 81 trainloss: 3.70 timecost:1347.09 secs
+epoch: 14 ii: 131 trainloss: 3.55 timecost:1357.86 secs
+epoch: 14 ii: 181 trainloss: 3.50 timecost:1368.83 secs
+epoch: 14 ii: 231 trainloss: 3.60 timecost:1380.77 secs
+epoch: 14 ii: 281 trainloss: 3.53 timecost:1392.03 secs
+epoch: 14 meanloss: 3.58
+Validation:
+epoch: 14, numImages: 576 testloss: 0.29 mmae: 0.0619 fbeta: 0.7531 iou: 0.5848
+epoch: 15 ii: 44 trainloss: 3.55 timecost:1436.43 secs
+epoch: 15 ii: 94 trainloss: 3.49 timecost:1446.55 secs
+epoch: 15 ii: 144 trainloss: 3.65 timecost:1456.66 secs
+epoch: 15 ii: 194 trainloss: 3.47 timecost:1467.08 secs
+epoch: 15 ii: 244 trainloss: 3.36 timecost:1477.88 secs
+epoch: 15 meanloss: 3.54
+Validation:
+epoch: 15, numImages: 576 testloss: 0.29 mmae: 0.0602 fbeta: 0.7609 iou: 0.5846
+epoch: 16 ii: 7 trainloss: 3.75 timecost:1521.16 secs
+epoch: 16 ii: 57 trainloss: 3.46 timecost:1531.71 secs
+epoch: 16 ii: 107 trainloss: 3.38 timecost:1542.39 secs
+epoch: 16 ii: 157 trainloss: 3.51 timecost:1553.24 secs
+epoch: 16 ii: 207 trainloss: 3.46 timecost:1563.99 secs
+epoch: 16 ii: 257 trainloss: 3.21 timecost:1574.69 secs
+epoch: 16 meanloss: 3.41
+Validation:
+epoch: 16, numImages: 576 testloss: 0.27 mmae: 0.0543 fbeta: 0.7800 iou: 0.6083
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 17 ii: 20 trainloss: 3.25 timecost:1624.23 secs
+epoch: 17 ii: 70 trainloss: 3.32 timecost:1633.95 secs
+epoch: 17 ii: 120 trainloss: 3.33 timecost:1644.04 secs
+epoch: 17 ii: 170 trainloss: 3.43 timecost:1654.38 secs
+epoch: 17 ii: 220 trainloss: 3.34 timecost:1665.85 secs
+epoch: 17 ii: 270 trainloss: 3.27 timecost:1677.13 secs
+epoch: 17 meanloss: 3.32
+Validation:
+epoch: 17, numImages: 576 testloss: 0.29 mmae: 0.0633 fbeta: 0.7390 iou: 0.5815
+epoch: 18 ii: 33 trainloss: 3.37 timecost:1719.30 secs
+epoch: 18 ii: 83 trainloss: 3.36 timecost:1731.21 secs
+epoch: 18 ii: 133 trainloss: 3.22 timecost:1743.40 secs
+epoch: 18 ii: 183 trainloss: 3.22 timecost:1755.47 secs
+epoch: 18 ii: 233 trainloss: 3.31 timecost:1767.09 secs
+epoch: 18 ii: 283 trainloss: 3.30 timecost:1779.06 secs
+epoch: 18 meanloss: 3.29
+Validation:
+epoch: 18, numImages: 576 testloss: 0.27 mmae: 0.0558 fbeta: 0.7620 iou: 0.6169
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 19 ii: 46 trainloss: 3.32 timecost:1823.67 secs
+epoch: 19 ii: 96 trainloss: 3.19 timecost:1835.60 secs
+epoch: 19 ii: 146 trainloss: 3.11 timecost:1847.60 secs
+epoch: 19 ii: 196 trainloss: 3.20 timecost:1859.40 secs
+epoch: 19 ii: 246 trainloss: 3.15 timecost:1871.08 secs
+epoch: 19 meanloss: 3.19
+Validation:
+epoch: 19, numImages: 576 testloss: 0.26 mmae: 0.0544 fbeta: 0.7717 iou: 0.6202
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+(poly lr policy) learning rate:  0.0065035805048774195
+epoch: 20 ii: 9 trainloss: 3.15 timecost:1914.91 secs
+epoch: 20 ii: 59 trainloss: 2.94 timecost:1925.07 secs
+epoch: 20 ii: 109 trainloss: 3.07 timecost:1935.85 secs
+epoch: 20 ii: 159 trainloss: 3.10 timecost:1946.07 secs
+epoch: 20 ii: 209 trainloss: 3.11 timecost:1956.30 secs
+epoch: 20 ii: 259 trainloss: 3.08 timecost:1966.65 secs
+epoch: 20 meanloss: 3.06
+Validation:
+epoch: 20, numImages: 576 testloss: 0.27 mmae: 0.0563 fbeta: 0.7622 iou: 0.6127
+epoch: 21 ii: 22 trainloss: 3.11 timecost:2012.25 secs
+epoch: 21 ii: 72 trainloss: 3.10 timecost:2022.50 secs
+epoch: 21 ii: 122 trainloss: 3.06 timecost:2033.34 secs
+epoch: 21 ii: 172 trainloss: 2.89 timecost:2044.17 secs
+epoch: 21 ii: 222 trainloss: 3.06 timecost:2056.04 secs
+epoch: 21 ii: 272 trainloss: 3.06 timecost:2068.51 secs
+epoch: 21 meanloss: 3.05
+Validation:
+epoch: 21, numImages: 576 testloss: 0.29 mmae: 0.0584 fbeta: 0.7874 iou: 0.5898
+epoch: 22 ii: 35 trainloss: 3.08 timecost:2109.64 secs
+epoch: 22 ii: 85 trainloss: 3.05 timecost:2119.76 secs
+epoch: 22 ii: 135 trainloss: 3.04 timecost:2129.97 secs
+epoch: 22 ii: 185 trainloss: 2.84 timecost:2140.36 secs
+epoch: 22 ii: 235 trainloss: 2.99 timecost:2150.64 secs
+epoch: 22 ii: 285 trainloss: 2.84 timecost:2160.94 secs
+epoch: 22 meanloss: 2.96
+Validation:
+epoch: 22, numImages: 576 testloss: 0.26 mmae: 0.0534 fbeta: 0.7729 iou: 0.6298
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 23 ii: 48 trainloss: 2.94 timecost:2204.72 secs
+epoch: 23 ii: 98 trainloss: 2.80 timecost:2214.62 secs
+epoch: 23 ii: 148 trainloss: 2.72 timecost:2224.51 secs
+epoch: 23 ii: 198 trainloss: 2.87 timecost:2235.26 secs
+epoch: 23 ii: 248 trainloss: 3.07 timecost:2245.81 secs
+epoch: 23 meanloss: 2.90
+Validation:
+epoch: 23, numImages: 576 testloss: 0.26 mmae: 0.0564 fbeta: 0.7518 iou: 0.6278
+epoch: 24 ii: 11 trainloss: 3.05 timecost:2291.71 secs
+epoch: 24 ii: 61 trainloss: 3.05 timecost:2303.37 secs
+epoch: 24 ii: 111 trainloss: 3.35 timecost:2315.28 secs
+epoch: 24 ii: 161 trainloss: 3.14 timecost:2326.95 secs
+epoch: 24 ii: 211 trainloss: 2.83 timecost:2338.97 secs
+epoch: 24 ii: 261 trainloss: 2.75 timecost:2350.86 secs
+epoch: 24 meanloss: 3.01
+Validation:
+epoch: 24, numImages: 576 testloss: 0.26 mmae: 0.0542 fbeta: 0.7485 iou: 0.6219
+epoch: 25 ii: 24 trainloss: 2.87 timecost:2398.64 secs
+epoch: 25 ii: 74 trainloss: 2.78 timecost:2408.94 secs
+epoch: 25 ii: 124 trainloss: 2.76 timecost:2419.33 secs
+epoch: 25 ii: 174 trainloss: 2.82 timecost:2429.86 secs
+epoch: 25 ii: 224 trainloss: 3.00 timecost:2440.63 secs
+epoch: 25 ii: 274 trainloss: 2.82 timecost:2452.01 secs
+epoch: 25 meanloss: 2.85
+Validation:
+epoch: 25, numImages: 576 testloss: 0.25 mmae: 0.0568 fbeta: 0.7377 iou: 0.6264
+epoch: 26 ii: 37 trainloss: 2.89 timecost:2488.66 secs
+epoch: 26 ii: 87 trainloss: 2.71 timecost:2499.30 secs
+epoch: 26 ii: 137 trainloss: 2.76 timecost:2510.62 secs
+epoch: 26 ii: 187 trainloss: 2.76 timecost:2522.04 secs
+epoch: 26 ii: 237 trainloss: 2.89 timecost:2533.67 secs
+epoch: 26 meanloss: 2.81
+Validation:
+epoch: 26, numImages: 576 testloss: 0.26 mmae: 0.0536 fbeta: 0.7586 iou: 0.6243
+epoch: 27 ii: 0 trainloss: 2.87 timecost:2577.24 secs
+epoch: 27 ii: 50 trainloss: 2.74 timecost:2588.25 secs
+epoch: 27 ii: 100 trainloss: 3.14 timecost:2599.74 secs
+epoch: 27 ii: 150 trainloss: 2.87 timecost:2611.09 secs
+epoch: 27 ii: 200 trainloss: 2.90 timecost:2622.23 secs
+epoch: 27 ii: 250 trainloss: 2.78 timecost:2633.82 secs
+epoch: 27 meanloss: 2.86
+Validation:
+epoch: 27, numImages: 576 testloss: 0.24 mmae: 0.0493 fbeta: 0.7850 iou: 0.6434
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 28 ii: 13 trainloss: 2.71 timecost:2676.20 secs
+epoch: 28 ii: 63 trainloss: 2.82 timecost:2686.23 secs
+epoch: 28 ii: 113 trainloss: 2.84 timecost:2696.36 secs
+epoch: 28 ii: 163 trainloss: 3.01 timecost:2707.24 secs
+epoch: 28 ii: 213 trainloss: 2.63 timecost:2718.31 secs
+epoch: 28 ii: 263 trainloss: 2.64 timecost:2729.18 secs
+epoch: 28 meanloss: 2.77
+Validation:
+epoch: 28, numImages: 576 testloss: 0.24 mmae: 0.0496 fbeta: 0.7864 iou: 0.6426
+epoch: 29 ii: 26 trainloss: 2.78 timecost:2767.57 secs
+epoch: 29 ii: 76 trainloss: 2.79 timecost:2778.41 secs
+epoch: 29 ii: 126 trainloss: 2.66 timecost:2788.40 secs
+epoch: 29 ii: 176 trainloss: 2.74 timecost:2798.51 secs
+epoch: 29 ii: 226 trainloss: 2.90 timecost:2808.75 secs
+epoch: 29 ii: 276 trainloss: 2.79 timecost:2819.04 secs
+epoch: 29 meanloss: 2.78
+Validation:
+epoch: 29, numImages: 576 testloss: 0.24 mmae: 0.0510 fbeta: 0.7794 iou: 0.6428
+(poly lr policy) learning rate:  0.0045806210165153325
+epoch: 30 ii: 39 trainloss: 2.71 timecost:2855.02 secs
+epoch: 30 ii: 89 trainloss: 2.98 timecost:2864.79 secs
+epoch: 30 ii: 139 trainloss: 2.68 timecost:2874.93 secs
+epoch: 30 ii: 189 trainloss: 2.66 timecost:2885.64 secs
+epoch: 30 ii: 239 trainloss: 2.61 timecost:2896.44 secs
+epoch: 30 meanloss: 2.70
+Validation:
+epoch: 30, numImages: 576 testloss: 0.23 mmae: 0.0470 fbeta: 0.7899 iou: 0.6597
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 31 ii: 2 trainloss: 2.55 timecost:2937.44 secs
+epoch: 31 ii: 52 trainloss: 2.46 timecost:2947.52 secs
+epoch: 31 ii: 102 trainloss: 2.52 timecost:2958.27 secs
+epoch: 31 ii: 152 trainloss: 2.54 timecost:2970.88 secs
+epoch: 31 ii: 202 trainloss: 2.65 timecost:2982.55 secs
+epoch: 31 ii: 252 trainloss: 2.52 timecost:2994.34 secs
+epoch: 31 meanloss: 2.53
+Validation:
+epoch: 31, numImages: 576 testloss: 0.24 mmae: 0.0483 fbeta: 0.7977 iou: 0.6506
+epoch: 32 ii: 15 trainloss: 2.43 timecost:3036.25 secs
+epoch: 32 ii: 65 trainloss: 2.51 timecost:3047.36 secs
+epoch: 32 ii: 115 trainloss: 2.43 timecost:3058.00 secs
+epoch: 32 ii: 165 trainloss: 2.65 timecost:3068.65 secs
+epoch: 32 ii: 215 trainloss: 2.51 timecost:3079.62 secs
+epoch: 32 ii: 265 trainloss: 2.60 timecost:3090.87 secs
+epoch: 32 meanloss: 2.54
+Validation:
+epoch: 32, numImages: 576 testloss: 0.24 mmae: 0.0490 fbeta: 0.7827 iou: 0.6497
+epoch: 33 ii: 28 trainloss: 2.66 timecost:3131.46 secs
+epoch: 33 ii: 78 trainloss: 2.57 timecost:3142.19 secs
+epoch: 33 ii: 128 trainloss: 2.50 timecost:3152.21 secs
+epoch: 33 ii: 178 trainloss: 2.64 timecost:3162.34 secs
+epoch: 33 ii: 228 trainloss: 2.43 timecost:3172.20 secs
+epoch: 33 ii: 278 trainloss: 2.40 timecost:3182.28 secs
+epoch: 33 meanloss: 2.53
+Validation:
+epoch: 33, numImages: 576 testloss: 0.24 mmae: 0.0491 fbeta: 0.7873 iou: 0.6460
+epoch: 34 ii: 41 trainloss: 2.57 timecost:3220.95 secs
+epoch: 34 ii: 91 trainloss: 2.65 timecost:3231.72 secs
+epoch: 34 ii: 141 trainloss: 2.51 timecost:3241.53 secs
+epoch: 34 ii: 191 trainloss: 2.51 timecost:3252.63 secs
+epoch: 34 ii: 241 trainloss: 2.51 timecost:3263.24 secs
+epoch: 34 meanloss: 2.54
+Validation:
+epoch: 34, numImages: 576 testloss: 0.25 mmae: 0.0522 fbeta: 0.8060 iou: 0.6330
+epoch: 35 ii: 4 trainloss: 2.50 timecost:3305.30 secs
+epoch: 35 ii: 54 trainloss: 2.52 timecost:3317.28 secs
+epoch: 35 ii: 104 trainloss: 2.45 timecost:3328.42 secs
+epoch: 35 ii: 154 trainloss: 2.60 timecost:3339.62 secs
+epoch: 35 ii: 204 trainloss: 2.56 timecost:3350.92 secs
+epoch: 35 ii: 254 trainloss: 2.54 timecost:3362.47 secs
+epoch: 35 meanloss: 2.52
+Validation:
+epoch: 35, numImages: 576 testloss: 0.24 mmae: 0.0491 fbeta: 0.8005 iou: 0.6480
+epoch: 36 ii: 17 trainloss: 2.54 timecost:3404.66 secs
+epoch: 36 ii: 67 trainloss: 2.44 timecost:3415.70 secs
+epoch: 36 ii: 117 trainloss: 2.51 timecost:3425.58 secs
+epoch: 36 ii: 167 trainloss: 2.49 timecost:3436.22 secs
+epoch: 36 ii: 217 trainloss: 2.48 timecost:3447.01 secs
+epoch: 36 ii: 267 trainloss: 2.55 timecost:3458.19 secs
+epoch: 36 meanloss: 2.50
+Validation:
+epoch: 36, numImages: 576 testloss: 0.25 mmae: 0.0490 fbeta: 0.8020 iou: 0.6419
+epoch: 37 ii: 30 trainloss: 2.35 timecost:3497.39 secs
+epoch: 37 ii: 80 trainloss: 2.55 timecost:3508.65 secs
+epoch: 37 ii: 130 trainloss: 2.44 timecost:3520.26 secs
+epoch: 37 ii: 180 trainloss: 2.46 timecost:3531.50 secs
+epoch: 37 ii: 230 trainloss: 2.43 timecost:3543.29 secs
+epoch: 37 ii: 280 trainloss: 2.43 timecost:3555.49 secs
+epoch: 37 meanloss: 2.45
+Validation:
+epoch: 37, numImages: 576 testloss: 0.24 mmae: 0.0492 fbeta: 0.7761 iou: 0.6507
+epoch: 38 ii: 43 trainloss: 2.56 timecost:3600.21 secs
+epoch: 38 ii: 93 trainloss: 2.64 timecost:3611.53 secs
+epoch: 38 ii: 143 trainloss: 2.40 timecost:3622.97 secs
+epoch: 38 ii: 193 trainloss: 2.45 timecost:3634.03 secs
+epoch: 38 ii: 243 trainloss: 2.36 timecost:3645.40 secs
+epoch: 38 meanloss: 2.46
+Validation:
+epoch: 38, numImages: 576 testloss: 0.24 mmae: 0.0495 fbeta: 0.7859 iou: 0.6471
+epoch: 39 ii: 6 trainloss: 2.40 timecost:3688.20 secs
+epoch: 39 ii: 56 trainloss: 2.75 timecost:3698.92 secs
+epoch: 39 ii: 106 trainloss: 2.56 timecost:3710.47 secs
+epoch: 39 ii: 156 trainloss: 2.54 timecost:3722.57 secs
+epoch: 39 ii: 206 trainloss: 2.43 timecost:3734.12 secs
+epoch: 39 ii: 256 trainloss: 2.39 timecost:3746.09 secs
+epoch: 39 meanloss: 2.52
+Validation:
+epoch: 39, numImages: 576 testloss: 0.24 mmae: 0.0473 fbeta: 0.7978 iou: 0.6499
+(poly lr policy) learning rate:  0.0025596489844146204
+epoch: 40 ii: 19 trainloss: 2.43 timecost:3789.68 secs
+epoch: 40 ii: 69 trainloss: 2.34 timecost:3800.88 secs
+epoch: 40 ii: 119 trainloss: 2.28 timecost:3812.27 secs
+epoch: 40 ii: 169 trainloss: 2.28 timecost:3823.52 secs
+epoch: 40 ii: 219 trainloss: 2.36 timecost:3834.65 secs
+epoch: 40 ii: 269 trainloss: 2.21 timecost:3846.33 secs
+epoch: 40 meanloss: 2.30
+Validation:
+epoch: 40, numImages: 576 testloss: 0.23 mmae: 0.0472 fbeta: 0.7886 iou: 0.6578
+epoch: 41 ii: 32 trainloss: 2.23 timecost:3885.34 secs
+epoch: 41 ii: 82 trainloss: 2.16 timecost:3895.34 secs
+epoch: 41 ii: 132 trainloss: 2.32 timecost:3905.21 secs
+epoch: 41 ii: 182 trainloss: 2.23 timecost:3915.40 secs
+epoch: 41 ii: 232 trainloss: 2.20 timecost:3926.15 secs
+epoch: 41 ii: 282 trainloss: 2.31 timecost:3937.41 secs
+epoch: 41 meanloss: 2.24
+Validation:
+epoch: 41, numImages: 576 testloss: 0.23 mmae: 0.0458 fbeta: 0.8028 iou: 0.6602
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 42 ii: 45 trainloss: 2.27 timecost:3980.13 secs
+epoch: 42 ii: 95 trainloss: 2.15 timecost:3992.10 secs
+epoch: 42 ii: 145 trainloss: 2.14 timecost:4004.17 secs
+epoch: 42 ii: 195 trainloss: 2.34 timecost:4015.51 secs
+epoch: 42 ii: 245 trainloss: 2.11 timecost:4027.21 secs
+epoch: 42 meanloss: 2.21
+Validation:
+epoch: 42, numImages: 576 testloss: 0.22 mmae: 0.0459 fbeta: 0.7979 iou: 0.6638
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 43 ii: 8 trainloss: 2.23 timecost:4067.35 secs
+epoch: 43 ii: 58 trainloss: 2.29 timecost:4078.18 secs
+epoch: 43 ii: 108 trainloss: 2.26 timecost:4088.66 secs
+epoch: 43 ii: 158 trainloss: 2.10 timecost:4099.81 secs
+epoch: 43 ii: 208 trainloss: 2.06 timecost:4111.11 secs
+epoch: 43 ii: 258 trainloss: 2.19 timecost:4121.68 secs
+epoch: 43 meanloss: 2.17
+Validation:
+epoch: 43, numImages: 576 testloss: 0.23 mmae: 0.0467 fbeta: 0.7812 iou: 0.6592
+epoch: 44 ii: 21 trainloss: 2.16 timecost:4161.30 secs
+epoch: 44 ii: 71 trainloss: 2.04 timecost:4171.25 secs
+epoch: 44 ii: 121 trainloss: 2.11 timecost:4181.50 secs
+epoch: 44 ii: 171 trainloss: 2.16 timecost:4192.50 secs
+epoch: 44 ii: 221 trainloss: 2.22 timecost:4203.44 secs
+epoch: 44 ii: 271 trainloss: 2.27 timecost:4214.50 secs
+epoch: 44 meanloss: 2.19
+Validation:
+epoch: 44, numImages: 576 testloss: 0.23 mmae: 0.0457 fbeta: 0.7904 iou: 0.6627
+epoch: 45 ii: 34 trainloss: 2.39 timecost:4253.25 secs
+epoch: 45 ii: 84 trainloss: 2.16 timecost:4263.35 secs
+epoch: 45 ii: 134 trainloss: 2.26 timecost:4273.31 secs
+epoch: 45 ii: 184 trainloss: 2.17 timecost:4283.38 secs
+epoch: 45 ii: 234 trainloss: 2.08 timecost:4294.05 secs
+epoch: 45 ii: 284 trainloss: 2.17 timecost:4304.50 secs
+epoch: 45 meanloss: 2.19
+Validation:
+epoch: 45, numImages: 576 testloss: 0.23 mmae: 0.0459 fbeta: 0.7972 iou: 0.6634
+epoch: 46 ii: 47 trainloss: 2.14 timecost:4344.25 secs
+epoch: 46 ii: 97 trainloss: 2.13 timecost:4354.26 secs
+epoch: 46 ii: 147 trainloss: 2.02 timecost:4364.37 secs
+epoch: 46 ii: 197 trainloss: 2.11 timecost:4374.30 secs
+epoch: 46 ii: 247 trainloss: 2.10 timecost:4384.47 secs
+epoch: 46 meanloss: 2.12
+Validation:
+epoch: 46, numImages: 576 testloss: 0.22 mmae: 0.0447 fbeta: 0.7974 iou: 0.6656
+Save model at /workspace/amy/repos/TRFE-Net-for-thyroid-nodule-segmentation/run/trfeplus/fold1/trfeplus_best.pth
+
+epoch: 47 ii: 10 trainloss: 2.19 timecost:4425.11 secs
+epoch: 47 ii: 60 trainloss: 2.13 timecost:4435.22 secs
+epoch: 47 ii: 110 trainloss: 2.15 timecost:4445.30 secs
+epoch: 47 ii: 160 trainloss: 2.03 timecost:4455.43 secs
+epoch: 47 ii: 210 trainloss: 2.04 timecost:4465.49 secs
+epoch: 47 ii: 260 trainloss: 2.14 timecost:4476.32 secs
+epoch: 47 meanloss: 2.10
+Validation:
+epoch: 47, numImages: 576 testloss: 0.23 mmae: 0.0460 fbeta: 0.7995 iou: 0.6621
+epoch: 48 ii: 23 trainloss: 2.11 timecost:4518.85 secs
+epoch: 48 ii: 73 trainloss: 2.09 timecost:4529.40 secs
+epoch: 48 ii: 123 trainloss: 2.06 timecost:4540.33 secs
+epoch: 48 ii: 173 trainloss: 2.16 timecost:4551.29 secs
+epoch: 48 ii: 223 trainloss: 2.08 timecost:4562.39 secs
+epoch: 48 ii: 273 trainloss: 2.04 timecost:4573.32 secs
+epoch: 48 meanloss: 2.09
+Validation:
+epoch: 48, numImages: 576 testloss: 0.23 mmae: 0.0468 fbeta: 0.8038 iou: 0.6553
+epoch: 49 ii: 36 trainloss: 2.16 timecost:4611.70 secs
+epoch: 49 ii: 86 trainloss: 2.18 timecost:4622.10 secs
+epoch: 49 ii: 136 trainloss: 2.09 timecost:4632.49 secs
+epoch: 49 ii: 186 trainloss: 2.07 timecost:4642.28 secs
+epoch: 49 ii: 236 trainloss: 2.15 timecost:4652.24 secs
+epoch: 49 ii: 286 trainloss: 2.03 timecost:4662.23 secs
+epoch: 49 meanloss: 2.11
+Validation:
+epoch: 49, numImages: 576 testloss: 0.23 mmae: 0.0453 fbeta: 0.8024 iou: 0.6616
+(poly lr policy) learning rate:  0.000295751527325663

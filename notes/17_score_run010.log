@@ -1,0 +1,275 @@
+===== trfeplus fold 0 : nodule =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run010-trfeplus-fold0
+  model=trfeplus  head=nodule  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold0/trfeplus_best.pth
+  empty predictions: 3
+wrote /workspace/amy/preds/run010-trfeplus-fold0/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-fold0
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.8129  sd_across_cases=0.1967  median=0.8924  iqr=[0.778, 0.932]
+  iou   n=614   mean=0.7207  sd_across_cases=0.2202  median=0.8057  iqr=[0.636, 0.873]
+  hd95  n=611   mean=20.0064  sd_across_cases=25.3402  median=10.1758  iqr=[5.000, 23.940]   (3 undefined)
+  aggregate  dice=0.8655  iou=0.7629   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/17_score_run010_fold0.csv
+wrote /workspace/amy/notes/17_score_run010_fold0.csv.meta
+===== trfeplus fold 0 : gland =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run010-trfeplus-gland-fold0
+  model=trfeplus  head=gland  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold0/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-gland-fold0/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-gland-fold0
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7536  sd_across_cases=0.2448  median=0.8534  iqr=[0.718, 0.903]
+  iou   n=559   mean=0.6515  sd_across_cases=0.2428  median=0.7442  iqr=[0.560, 0.823]
+  hd95  n=559   mean=75.1126  sd_across_cases=53.2015  median=94.6057  iqr=[17.109, 123.449]
+  aggregate  dice=0.8273  iou=0.7054   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/18_score_run010_gland_fold0.csv
+wrote /workspace/amy/notes/18_score_run010_gland_fold0.csv.meta
+===== trfeplus fold 1 : nodule =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run010-trfeplus-fold1
+  model=trfeplus  head=nodule  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold1/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-fold1/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-fold1
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.8165  sd_across_cases=0.1912  median=0.8916  iqr=[0.784, 0.935]
+  iou   n=614   mean=0.7241  sd_across_cases=0.2158  median=0.8044  iqr=[0.645, 0.878]
+  hd95  n=614   mean=20.9390  sd_across_cases=27.2884  median=9.7811  iqr=[4.762, 23.469]
+  aggregate  dice=0.8662  iou=0.7640   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/17_score_run010_fold1.csv
+wrote /workspace/amy/notes/17_score_run010_fold1.csv.meta
+===== trfeplus fold 1 : gland =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run010-trfeplus-gland-fold1
+  model=trfeplus  head=gland  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold1/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-gland-fold1/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-gland-fold1
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7237  sd_across_cases=0.2417  median=0.8157  iqr=[0.647, 0.881]
+  iou   n=559   mean=0.6113  sd_across_cases=0.2385  median=0.6888  iqr=[0.478, 0.787]
+  hd95  n=559   mean=72.6559  sd_across_cases=47.8947  median=90.5842  iqr=[20.574, 115.681]
+  aggregate  dice=0.7998  iou=0.6664   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/18_score_run010_gland_fold1.csv
+wrote /workspace/amy/notes/18_score_run010_gland_fold1.csv.meta
+===== trfeplus fold 2 : nodule =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run010-trfeplus-fold2
+  model=trfeplus  head=nodule  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold2/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-fold2/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-fold2
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7999  sd_across_cases=0.2004  median=0.8789  iqr=[0.769, 0.925]
+  iou   n=614   mean=0.7031  sd_across_cases=0.2227  median=0.7840  iqr=[0.625, 0.861]
+  hd95  n=614   mean=22.2422  sd_across_cases=27.3685  median=11.3245  iqr=[5.753, 26.339]
+  aggregate  dice=0.8448  iou=0.7314   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/17_score_run010_fold2.csv
+wrote /workspace/amy/notes/17_score_run010_fold2.csv.meta
+===== trfeplus fold 2 : gland =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run010-trfeplus-gland-fold2
+  model=trfeplus  head=gland  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold2/trfeplus_best.pth
+  empty predictions: 4
+wrote /workspace/amy/preds/run010-trfeplus-gland-fold2/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-gland-fold2
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7165  sd_across_cases=0.2465  median=0.8332  iqr=[0.630, 0.871]
+  iou   n=559   mean=0.6037  sd_across_cases=0.2409  median=0.7141  iqr=[0.460, 0.771]
+  hd95  n=555   mean=75.2269  sd_across_cases=50.3362  median=87.0919  iqr=[22.754, 121.915]   (4 undefined)
+  aggregate  dice=0.8006  iou=0.6675   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/18_score_run010_gland_fold2.csv
+wrote /workspace/amy/notes/18_score_run010_gland_fold2.csv.meta
+===== trfeplus fold 3 : nodule =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run010-trfeplus-fold3
+  model=trfeplus  head=nodule  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold3/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-fold3/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-fold3
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7961  sd_across_cases=0.2030  median=0.8723  iqr=[0.758, 0.924]
+  iou   n=614   mean=0.6984  sd_across_cases=0.2245  median=0.7735  iqr=[0.611, 0.859]
+  hd95  n=614   mean=22.4926  sd_across_cases=26.8137  median=12.0000  iqr=[5.249, 29.010]
+  aggregate  dice=0.8383  iou=0.7215   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/17_score_run010_fold3.csv
+wrote /workspace/amy/notes/17_score_run010_fold3.csv.meta
+===== trfeplus fold 3 : gland =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run010-trfeplus-gland-fold3
+  model=trfeplus  head=gland  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold3/trfeplus_best.pth
+  empty predictions: 12
+wrote /workspace/amy/preds/run010-trfeplus-gland-fold3/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-gland-fold3
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7569  sd_across_cases=0.2367  median=0.8335  iqr=[0.736, 0.892]
+  iou   n=559   mean=0.6523  sd_across_cases=0.2329  median=0.7146  iqr=[0.582, 0.806]
+  hd95  n=547   mean=81.7907  sd_across_cases=52.8887  median=99.8286  iqr=[23.382, 129.471]   (12 undefined)
+  aggregate  dice=0.8334  iou=0.7144   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/18_score_run010_gland_fold3.csv
+wrote /workspace/amy/notes/18_score_run010_gland_fold3.csv.meta
+===== trfeplus fold 4 : nodule =====
+split filter tn3k:test: 614 -> 614 images
+  100/614
+  200/614
+  300/614
+  400/614
+  500/614
+  600/614
+
+wrote 614 masks to /workspace/amy/preds/run010-trfeplus-fold4
+  model=trfeplus  head=nodule  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold4/trfeplus_best.pth
+  empty predictions: 0
+wrote /workspace/amy/preds/run010-trfeplus-fold4/_predict.meta
+split filter tn3k:test: 614 -> 614 cases
+
+scored 614 cases  class=nodule
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-fold4
+  gt=data/tn3k/test-mask
+
+  dice  n=614   mean=0.7923  sd_across_cases=0.2006  median=0.8718  iqr=[0.746, 0.922]
+  iou   n=614   mean=0.6923  sd_across_cases=0.2224  median=0.7727  iqr=[0.595, 0.856]
+  hd95  n=614   mean=22.2792  sd_across_cases=26.5455  median=11.9280  iqr=[5.831, 29.416]
+  aggregate  dice=0.8396  iou=0.7235   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/17_score_run010_fold4.csv
+wrote /workspace/amy/notes/17_score_run010_fold4.csv.meta
+===== trfeplus fold 4 : gland =====
+split filter tg3k:val: 3585 -> 559 images
+  100/559
+  200/559
+  300/559
+  400/559
+  500/559
+
+wrote 559 masks to /workspace/amy/preds/run010-trfeplus-gland-fold4
+  model=trfeplus  head=gland  size=224  threshold=0.5
+  checkpoint=run/trfeplus/fold4/trfeplus_best.pth
+  empty predictions: 4
+wrote /workspace/amy/preds/run010-trfeplus-gland-fold4/_predict.meta
+split filter tg3k:val: 559 -> 559 cases
+
+scored 559 cases  class=gland
+  threshold=127  at=input  empty=exclude
+  pred=/workspace/amy/preds/run010-trfeplus-gland-fold4
+  gt=data/tg3k/thyroid-mask
+
+  dice  n=559   mean=0.7180  sd_across_cases=0.2470  median=0.8186  iqr=[0.622, 0.874]
+  iou   n=559   mean=0.6061  sd_across_cases=0.2435  median=0.6929  iqr=[0.451, 0.776]
+  hd95  n=555   mean=77.5357  sd_across_cases=52.2779  median=96.5451  iqr=[23.167, 121.964]   (4 undefined)
+  aggregate  dice=0.8079  iou=0.6777   (pooled over all pixels, not a per-case mean)
+
+wrote /workspace/amy/notes/18_score_run010_gland_fold4.csv
+wrote /workspace/amy/notes/18_score_run010_gland_fold4.csv.meta

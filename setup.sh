@@ -35,3 +35,7 @@ PY
 echo "python : $(which python)"
 echo "data   : $(ls $REPO/data/tn3k/test-image 2>/dev/null | wc -l) TN3K test images"
 echo "splits : $([ -f /workspace/amy/splits/v1.json ] && echo 'v1.json present' || echo 'MISSING - run make_splits.py')"
+
+# git identity — /root/.gitconfig lives on container disk and is lost on pod restart
+git -C /workspace/amy config user.name  "Amy Shih"
+git -C /workspace/amy config user.email "cyshih30@gmail.com"

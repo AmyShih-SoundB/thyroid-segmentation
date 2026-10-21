@@ -22,7 +22,14 @@ from dataloaders import custom_transforms as trforms
 def build_model(name, device):
     if name == 'unet':
         from model.unet import Unet
-        return Unet(3, 1).to(device)
+        import os
+        _w = int(os.environ.get('UNET_WIDTH', 64))
+        print(f'  unet width={_w}')
+        return Unet(3, 1, width=_w).to(device)
+    if name == 'resnet18unet':
+        from model.resnet18_unet import ResNet18Unet
+        print('  resnet18-unet (encoder weights come from the checkpoint)')
+        return ResNet18Unet(3, 1, init='random').to(device)
     if name == 'mtnet':
         from model.mtnet import MTNet
         return MTNet(3, 1).to(device)
@@ -34,7 +41,8 @@ def build_model(name, device):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--model', required=True, choices=['unet', 'mtnet', 'trfeplus'])
+    ap.add_argument('--model', required=True,
+                    choices=['unet', 'mtnet', 'trfeplus', 'resnet18unet'])
     ap.add_argument('--checkpoint', required=True)
     ap.add_argument('--images', required=True, help='directory of input images')
     ap.add_argument('--out', required=True, help='directory to write masks into')
