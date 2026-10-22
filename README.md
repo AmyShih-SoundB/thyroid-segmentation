@@ -139,7 +139,3 @@ interpretation:
   is far below the nominal count, and gland Dice has effective n ≈ 2 videos.
 - The shipped TG3K split cuts through video 14, leaking 12.3% of the gland
   validation set. Regenerated on video boundaries here.
-- Both multi-task models train at batch size 8 against the U-Net's 16, forced by
-  `train.py` — an unmatched nuisance variable between rung 1 and rung 2.
-- n = 5 folds has low power. "TRFE+'s advantage over MTNet is not demonstrable at
-  this sample size" is defensible; "TRFE+ is no better" is not.
